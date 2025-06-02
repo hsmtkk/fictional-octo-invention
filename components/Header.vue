@@ -1,5 +1,8 @@
 <template>
-  <header>HEADER</header>
+  <header>
+    <Logo/>
+    <Nav/>
+  </header>
 </template>
 
 <script lang="ts" setup>

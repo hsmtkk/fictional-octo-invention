@@ -1,7 +1,5 @@
 <template>
-  <footer>
-    <Logo/>
-  </footer>
+  <Hero title="About" subtitle="About development activities"/>
 </template>
 
 <script lang="ts" setup>

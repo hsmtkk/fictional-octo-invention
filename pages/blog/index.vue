@@ -1,7 +1,5 @@
 <template>
-  <footer>
-    <Logo/>
-  </footer>
+  <Hero title="Blog" subtitle="Recent posts"/>
 </template>
 
 <script lang="ts" setup>
