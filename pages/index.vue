@@ -1,5 +1,7 @@
 <template>
-  <Hero title="CUBE" subtitle="アウトプットしていくサイト" imageOn/>
+  <Container>
+    <Hero title="CUBE" subtitle="アウトプットしていくサイト" imageOn/>
+  </Container>
 </template>
 
 <script lang="ts" setup>

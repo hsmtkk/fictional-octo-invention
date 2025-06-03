@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="styles.flexContainer">
     <div :class="styles.text">
       <h1 :class="styles.title">{{title}}</h1>    
       <p :class="styles.subtitle">{{ subtitle }}</p>

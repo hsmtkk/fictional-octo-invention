@@ -1,5 +1,7 @@
 <template>
-  <Hero title="Blog" subtitle="Recent posts"/>
+    <Container>
+      <Hero title="Blog" subtitle="Recent posts"/>
+    </Container>
 </template>
 
 <script lang="ts" setup>
