@@ -1,6 +1,6 @@
 <template>
   <header>
-    <Logo/>
+    <Logo boxOn/>
     <Nav/>
   </header>
 </template>
