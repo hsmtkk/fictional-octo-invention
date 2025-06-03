@@ -1,7 +1,8 @@
 <template>
   <div :class="styles.stack">
-    <h3 :class="styles.heading">Contact</h3> 
-    <address>cube@web.mail.address</address>    
+    <h3 :class="styles.heading">Contact</h3>
+    <Social />
+    <address>cube@web.mail.address</address>
   </div>
 </template>
 
@@ -9,6 +10,4 @@
 import styles from "@/styles/contact.module.css";
 </script>
 
-<style>
-
-</style>
+<style></style>

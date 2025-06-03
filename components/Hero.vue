@@ -1,9 +1,11 @@
 <template>
   <div :class="styles.flexContainer">
     <div :class="styles.text">
-      <h1 :class="styles.title">{{title}}</h1>    
+      <h1 :class="styles.title">{{ title }}</h1>
       <p :class="styles.subtitle">{{ subtitle }}</p>
-      <figure v-if="imageOn">[画像]</figure>
+      <figure v-if="imageOn">
+        <NuxtImg src="/cube.jpg" alt="" sizes="sm:100vw" />
+      </figure>
     </div>
   </div>
 </template>
@@ -19,5 +21,5 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   imageOn: false,
-}) ;
+});
 </script>

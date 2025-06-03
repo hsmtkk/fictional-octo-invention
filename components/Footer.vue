@@ -2,8 +2,8 @@
   <footer :class="styles.wrapper">
     <Container>
       <div :class="styles.flexContainer">
-        <Logo/>
-        [ソーシャル]
+        <Logo />
+        <Social />
       </div>
     </Container>
   </footer>
@@ -13,6 +13,4 @@
 import styles from "@/styles/footer.module.css";
 </script>
 
-<style>
-
-</style>
+<style></style>

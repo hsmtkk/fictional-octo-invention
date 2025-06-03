@@ -1,6 +1,9 @@
 <template>
   <Container>
     <Hero title="About" subtitle="About development activities" />
+    <figure>
+      <NuxtImg src="/about.jpg" alt="" sizes="sm:100vw" />
+    </figure>
     <TwoColumn>
       <TwoColumnMain>
         <PostBody>
